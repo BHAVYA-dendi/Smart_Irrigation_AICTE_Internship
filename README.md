@@ -1,29 +1,31 @@
-# Week 1 - EV Charging Demand Prediction
+# Smart Irrigation – AICTE Internship Project
 
-This project is created as part of the **AICTE Internship Cycle 2 (2025-26)**.
+This project is part of the AICTE Virtual Internship program on Machine Learning and Artificial Intelligence.
 
-## 📌 Problem Statement:
-Predict the number of EVs charging based on features like hour of day and temperature using Linear Regression.
+## Project Description
 
-## 🛠️ Technologies Used:
-- Python
-- Pandas
-- scikit-learn
-- Matplotlib
+The Smart Irrigation system uses a machine learning model to assist in automating irrigation decisions based on environmental data like temperature, humidity, and soil moisture.
 
-## 📊 Model:
-A **Linear Regression** model was used.
-- **MSE:** 617.17
-- **R² Score:** 0.0216
+## Files Included
 
-## 📁 Files:
-- `Week1_EV_Demand_Prediction.ipynb` — Jupyter Notebook with code
-- `README.md` — Project explanation
+- `Smart_Irrigation.ipynb` – Jupyter Notebook with the implementation
+- `irrigation_machine.csv` – Dataset used for training the model
+- `README.md` – Project overview and instructions
 
-## ✅ Submission Instructions:
-1. Upload both files to your GitHub repo.
-2. Paste the GitHub repo link on the LMS portal.
+## Technologies Used
 
-## LinkedIn Profile:Dendi Priyanka Reddy
-https://www.linkedin.com/in/dendi-priyanka-reddy-102974270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+- Python  
+- Pandas  
+- Scikit-learn  
+- Matplotlib  
+- Google Colab
 
+## How to Run
+
+1. Open the notebook in [Google Colab](https://colab.research.google.com).
+2. Upload the `irrigation_machine.csv` file when prompted.
+3. Run all cells to train the model and view predictions.
+
+## Purpose
+
+To apply basic machine learning techniques to real-world problems as part of the AICTE internship learning experience.
